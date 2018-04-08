@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:7889/eureka/}
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:7989/eureka/}
 sidecar:
   port: 3000
   home-page-uri: http://localhost:${sidecar.port}/
