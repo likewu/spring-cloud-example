@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:7989/eureka/}
+    registerWithEureka: true
+    fetchRegistry: true
+ribbon:
+  eureka:
+    enabled: true
